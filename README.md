@@ -1,5 +1,5 @@
 # Projeto T1 - Estrutura de Dados I
-*Projeto desenvolvido na disciplina de Estrutura de Dados I, projeto desenvolvido usando o sistema operacional Windows 7, para o funcionamento todos os arquivos.c e arquivos.h são compilados executando o comando make no terminal, então o makefile será executado realizando a compilação de todos os códigos e gerando 2 executáveis para o projeto: **progrdin**
+*Projeto desenvolvido na disciplina de Estrutura de Dados I, foi utilizado o sistema operacional Windows 7, para o funcionamento do projeto, todos os arquivos.c e arquivos.h são compilados executando o comando make no terminal, então o makefile será executado realizando a compilação de todos os códigos e gerando 2 executáveis para o projeto: **progrdin**
 e **progrest**, para utilizar o projeto é necessário informar parâmetros de entrada via argumentos pela linha de comando no terminal, cmd ou PowerShell, exemplo:*
 
 ### ./progrdin -e DiretórioEntrada -f nome_arquivo.geo -q SubDiretório/nome_arquivo.qry -o DiretórioSaida
