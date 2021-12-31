@@ -3,9 +3,9 @@
 e **progrest**, para utilizar o projeto é necessário informar parâmetros de entrada via argumentos pela linha de comando no terminal, cmd ou PowerShell, exemplo:*
 
 ### ./progrdin -e DiretórioEntrada -f nome_arquivo.geo -q SubDiretório/nome_arquivo.qry -o DiretórioSaida
-
-*Em resumo o projeto recebe um arquivo .geo que contém coordenadas para geração de retângulos e um arquivo .qry que contém consultas para serem realizadas com estes dados informados no arquivo .geo, o projeto utiliza as seguintes estruturas de dados: **Lista Dinâmica** e **Lista Estática**, o programa recebe como argumento da linha de comando o tipo de lista que será usado, caso o usuário não informe nenhum desses argumentos, será utilizado por padrão a **Lista dinâmica**, o projeto gera no diretório de saída arquivos .svg e .txt para mostrar os resultados das consultas realizadas ao longo da execução.*
 ---
+*Em resumo o projeto recebe um arquivo .geo que contém coordenadas para geração de retângulos e um arquivo .qry que contém consultas para serem realizadas com estes dados informados no arquivo .geo, o projeto utiliza as seguintes estruturas de dados: **Lista Dinâmica** e **Lista Estática**, o programa recebe como argumento da linha de comando o tipo de lista que será usado, caso o usuário não informe nenhum desses argumentos, será utilizado por padrão a **Lista dinâmica**, o projeto gera no diretório de saída arquivos .svg e .txt para mostrar os resultados das consultas realizadas ao longo da execução. Alguns exemplos de consultas são remoções de retângulos, troca de cores entre os retângulos, calculos de ponto interno a um retângulo, etc.*
+
 *No arquivo.geo temos como argumentos:*
 - **nx** (Usado para informar o tamanho a ser alocado para a lista estática)
 - **cc** (Informa a cor de borda do(s) retângulo(s))
